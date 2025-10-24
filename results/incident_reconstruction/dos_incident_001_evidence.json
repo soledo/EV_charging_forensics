@@ -1,0 +1,79 @@
+{
+  "incident_id": "dos_incident_001",
+  "incident_type": "DoS - ICMP Flood",
+  "network_evidence": {
+    "layer": "Network",
+    "confidence": "HIGH (90-100%)",
+    "data_source": "EVSE-B-charging-icmp-flood.csv",
+    "absolute_timestamps": true,
+    "evidence": {
+      "attack_type": "ICMP Flood",
+      "total_packets": 4,
+      "unique_source_ips": 4,
+      "unique_dest_ips": 4,
+      "source_ips": {
+        "fe80::6c9b:9e0d:591c:fc8a": 1,
+        "192.168.137.198": 1,
+        "192.168.137.85": 1,
+        "fe80::813f:cb21:c6d4:b7c2": 1
+      },
+      "destination_ips": {
+        "fe80::813f:cb21:c6d4:b7c2": 1,
+        "192.168.137.87": 1,
+        "192.168.137.198": 1,
+        "ff02::2": 1
+      },
+      "source_ports": {
+        "0": 2,
+        "34084": 1,
+        "33234": 1
+      },
+      "destination_ports": {
+        "0": 2,
+        "49152": 1,
+        "8765": 1
+      },
+      "incident_start_absolute": 1703188985.964,
+      "incident_duration_seconds": 60.0,
+      "packet_rate_per_second": 0.06666666666666667
+    }
+  },
+  "host_evidence": {
+    "layer": "Host",
+    "confidence": "MEDIUM (70-89%)",
+    "data_source": "host_cleaned.csv",
+    "absolute_timestamps": "ESTIMATED \u00b130s",
+    "warning": "Host absolute time is estimated by aligning with Network attack start",
+    "evidence": {
+      "total_records": 457,
+      "time_uncertainty": "\u00b130 seconds",
+      "cpu_usage_peak": 29563179545.0,
+      "cpu_usage_mean": 3408736890.5864334,
+      "memory_usage_peak": 5686543556.0,
+      "memory_usage_mean": 197163055.86382768,
+      "estimated_start_absolute": 1703188985.964,
+      "relative_time_reference": 182.32
+    }
+  },
+  "power_evidence": {
+    "layer": "Power",
+    "confidence": "LOW (50-69%)",
+    "data_source": "Representative pattern from different experimental session",
+    "absolute_timestamps": false,
+    "warning": "Power data collected Dec 24-30, Network data from Dec 21 - NO TEMPORAL OVERLAP",
+    "evidence": {
+      "note": "Representative DoS power consumption pattern available",
+      "cannot_reconstruct": "Cannot reconstruct absolute timeline for this specific incident",
+      "use_case": "Reference pattern only, not forensic evidence for this incident"
+    }
+  },
+  "reconstruction_confidence": {
+    "overall": "MEDIUM (75%)",
+    "rationale": "Network evidence HIGH, Host evidence MEDIUM (estimated time), Power evidence LOW (different session)",
+    "limitations": [
+      "Host absolute timestamps estimated with \u00b130s uncertainty",
+      "Power data from different experimental session (Dec 24-30 vs Dec 21)",
+      "Cannot perform true multi-layer event reconstruction due to temporal incompatibility"
+    ]
+  }
+}

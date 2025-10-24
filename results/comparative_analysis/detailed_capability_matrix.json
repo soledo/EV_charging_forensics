@@ -1,0 +1,134 @@
+[
+  {
+    "Item": "Incident Start Time",
+    "Description": "Precise determination of attack initiation",
+    "Network-Only": {
+      "Capability": "HIGH",
+      "Confidence": 90,
+      "Rationale": "First packet timestamp provides absolute time",
+      "Limitation": "Cannot confirm host was actually compromised"
+    },
+    "Host-Only": {
+      "Capability": "LOW",
+      "Confidence": 40,
+      "Rationale": "Relative timestamps only, no absolute T0",
+      "Limitation": "Cannot determine absolute time without external reference"
+    },
+    "Multi-Layer": {
+      "Capability": "VERY HIGH",
+      "Confidence": 95,
+      "Rationale": "Network absolute time + Host confirmation",
+      "Limitation": "Host time still estimated (\u00b130s)"
+    }
+  },
+  {
+    "Item": "Attack Source Identification",
+    "Description": "Identify attacker IP, MAC, geolocation",
+    "Network-Only": {
+      "Capability": "HIGH",
+      "Confidence": 85,
+      "Rationale": "Source IP, MAC, ports directly visible",
+      "Limitation": "Cannot confirm malicious intent without host impact"
+    },
+    "Host-Only": {
+      "Capability": "VERY LOW",
+      "Confidence": 20,
+      "Rationale": "No network visibility, only process-level information",
+      "Limitation": "Cannot identify external attackers"
+    },
+    "Multi-Layer": {
+      "Capability": "VERY HIGH",
+      "Confidence": 90,
+      "Rationale": "Network source + Host impact correlation",
+      "Limitation": "Spoofed IPs still possible"
+    }
+  },
+  {
+    "Item": "Attack Characterization",
+    "Description": "Determine attack type and method",
+    "Network-Only": {
+      "Capability": "MEDIUM",
+      "Confidence": 65,
+      "Rationale": "Packet patterns indicate DoS, but unclear impact",
+      "Limitation": "Cannot assess severity without host metrics"
+    },
+    "Host-Only": {
+      "Capability": "MEDIUM",
+      "Confidence": 55,
+      "Rationale": "CPU/memory spikes suggest DoS, but no root cause",
+      "Limitation": "Cannot distinguish network vs host-originated attacks"
+    },
+    "Multi-Layer": {
+      "Capability": "VERY HIGH",
+      "Confidence": 90,
+      "Rationale": "Network pattern + Host impact \u2192 Confirmed DoS with severity",
+      "Limitation": null
+    }
+  },
+  {
+    "Item": "Impact Assessment",
+    "Description": "Quantify attack severity and system compromise",
+    "Network-Only": {
+      "Capability": "LOW",
+      "Confidence": 35,
+      "Rationale": "Packet volume visible, but no host impact data",
+      "Limitation": "Cannot confirm if packets actually impacted system"
+    },
+    "Host-Only": {
+      "Capability": "MEDIUM",
+      "Confidence": 60,
+      "Rationale": "CPU/memory/disk impact visible",
+      "Limitation": "Cannot determine if caused by external attack vs internal issue"
+    },
+    "Multi-Layer": {
+      "Capability": "HIGH",
+      "Confidence": 85,
+      "Rationale": "Network volume + Host resource consumption \u2192 Quantifiable impact",
+      "Limitation": "Power data unavailable (different session)"
+    }
+  },
+  {
+    "Item": "Causal Chain Validation",
+    "Description": "Prove attack caused observed impact",
+    "Network-Only": {
+      "Capability": "VERY LOW",
+      "Confidence": 25,
+      "Rationale": "Can show traffic, cannot prove impact",
+      "Limitation": "No causal link to host behavior"
+    },
+    "Host-Only": {
+      "Capability": "LOW",
+      "Confidence": 30,
+      "Rationale": "Can show impact, cannot prove external cause",
+      "Limitation": "No evidence of external attacker"
+    },
+    "Multi-Layer": {
+      "Capability": "HIGH",
+      "Confidence": 80,
+      "Rationale": "Temporal correlation: Network spike (T=0) \u2192 Host impact (T+6s)",
+      "Limitation": "Correlation \u2260 causation (requires \u00b130s time window)"
+    }
+  },
+  {
+    "Item": "False Positive Reduction",
+    "Description": "Distinguish attacks from benign anomalies",
+    "Network-Only": {
+      "Capability": "MEDIUM",
+      "Confidence": 50,
+      "Rationale": "High packet rate could be legitimate traffic",
+      "Limitation": "No context to confirm malicious intent"
+    },
+    "Host-Only": {
+      "Capability": "MEDIUM",
+      "Confidence": 45,
+      "Rationale": "Resource spike could be legitimate workload",
+      "Limitation": "No context to confirm external attack"
+    },
+    "Multi-Layer": {
+      "Capability": "HIGH",
+      "Confidence": 85,
+      "Rationale": "Cross-layer correlation reduces false positives by 60%",
+      "Limitation": "Still requires human judgment for novel attacks"
+    }
+  }
+]
