@@ -1,0 +1,48 @@
+{
+  "recon_alignment": {
+    "scenario": "Recon",
+    "network_window": {
+      "file": "EVSE-B-idle-syn-stealth-scan_scaled.csv",
+      "start_time": 1703091216.232,
+      "end_time": 1703091276.232,
+      "records": 1002,
+      "duration": 60.0
+    },
+    "host_segment": {
+      "start_time": 5.001322377,
+      "end_time": 416.5445135,
+      "records": 1206,
+      "duration": 411.543191123
+    },
+    "alignment_method": "pattern_based_scenario_matching",
+    "power_validation": {
+      "records": 33318,
+      "mean_power": 0.08970677236166313,
+      "std_power": 0.056639309551318844
+    }
+  },
+  "dos_alignment": {
+    "scenario": "DoS",
+    "network_window": {
+      "file": "EVSE-B-idle-tcp-flood_scaled.csv",
+      "start_time": 1703094531.177,
+      "end_time": 1703094561.177,
+      "records": 65536,
+      "duration": 30.0
+    },
+    "host_segment": {
+      "start_time": 5.0,
+      "end_time": 337.0600437,
+      "records": 865,
+      "duration": 332.0600437
+    },
+    "alignment_method": "pattern_based_scenario_matching",
+    "power_validation": {
+      "records": 34884,
+      "mean_power": 0.30006309385917823,
+      "std_power": 0.2896512972109573
+    }
+  },
+  "alignment_date": "2025-10-24 16:50:35",
+  "alignment_strategy": "Pattern-based scenario matching using Scenario labels"
+}

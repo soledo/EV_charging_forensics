@@ -1,0 +1,14 @@
+{
+  "total_records": 6397,
+  "benign_records": 4604,
+  "crypto_records": 1793,
+  "total_features": 916,
+  "host_features": 905,
+  "power_features": 4,
+  "network_features": 0,
+  "scenarios": [
+    "Benign",
+    "Cryptojacking"
+  ],
+  "creation_date": "2025-10-24 16:57:00"
+}

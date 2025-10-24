@@ -1,0 +1,48 @@
+{
+  "file_name": "EVSE-B-PowerCombined.csv",
+  "total_records": 115298,
+  "total_columns": 10,
+  "memory_usage_mb": 46.104909896850586,
+  "columns": [
+    "time",
+    "shunt_voltage",
+    "bus_voltage_V",
+    "current_mA",
+    "power_mW",
+    "State",
+    "Attack",
+    "Attack-Group",
+    "Label",
+    "interface"
+  ],
+  "metadata_columns": [
+    "time",
+    "State",
+    "Attack",
+    "Label"
+  ],
+  "feature_columns": [
+    "shunt_voltage",
+    "bus_voltage_V",
+    "current_mA",
+    "power_mW",
+    "Attack-Group",
+    "interface"
+  ],
+  "num_metadata": 4,
+  "num_features": 6,
+  "scenarios": {},
+  "time_range": null,
+  "missing_values": {
+    "total_cells_missing": 0,
+    "pct_cells_missing": 0.0,
+    "columns_with_missing": 0
+  },
+  "num_numeric_features": 4,
+  "data_types": {
+    "object": 6,
+    "int64": 3,
+    "float64": 1
+  },
+  "profiling_date": "2025-10-24 16:22:00"
+}

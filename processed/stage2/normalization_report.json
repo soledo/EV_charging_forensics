@@ -1,0 +1,35 @@
+{
+  "host": {
+    "original_format": "relative_seconds",
+    "normalized_format": "relative_seconds",
+    "min_timestamp": 0.0,
+    "max_timestamp": 5855.669471,
+    "duration_seconds": 5855.669471
+  },
+  "network": {
+    "total_files": 80,
+    "original_format": "unix_milliseconds",
+    "normalized_format": "unix_seconds",
+    "timestamp_columns_converted": [
+      "bidirectional_first_seen_ms",
+      "bidirectional_last_seen_ms",
+      "src2dst_first_seen_ms",
+      "src2dst_last_seen_ms",
+      "dst2src_first_seen_ms",
+      "dst2src_last_seen_ms"
+    ]
+  },
+  "power": {
+    "original_format": "datetime_string",
+    "normalized_format": "seconds_since_t0",
+    "min_timestamp": 0.0,
+    "max_timestamp": 518520.0,
+    "duration_seconds": 518520.0
+  },
+  "normalization_date": "2025-10-24 16:32:47",
+  "global_t0": {
+    "unix_timestamp": 1703434680.0,
+    "datetime": "2023-12-24 16:18:00",
+    "source": "Power data (earliest timestamp)"
+  }
+}

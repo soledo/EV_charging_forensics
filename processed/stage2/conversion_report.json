@@ -1,0 +1,499 @@
+{
+  "host": {
+    "total_records": 8474,
+    "total_columns": 915,
+    "original_dtypes": {
+      "object": 915
+    },
+    "new_dtypes": {
+      "float64": 906,
+      "object": 9
+    },
+    "conversions_made": 905
+  },
+  "network": {
+    "total_files": 31,
+    "files": [
+      {
+        "filename": "EVSE-B-MaliciousEV-aggressive-scan.csv",
+        "records": 16361,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-os-fingerprinting.csv",
+        "records": 18259,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-port-scan.csv",
+        "records": 158013,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 19,
+          "object": 6
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-service-detection.csv",
+        "records": 87089,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 19,
+          "object": 6
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-syn-stealth-scan.csv",
+        "records": 228001,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 19,
+          "object": 6
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-vulnerability-scan.csv",
+        "records": 57058,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 19,
+          "object": 6
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-aggressive-scan.csv",
+        "records": 37872,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 14,
+          "object": 11
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-icmp-flood.csv",
+        "records": 30,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-os-fingerprinting.csv",
+        "records": 67971,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-port-scan.csv",
+        "records": 177409,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-push-ack-flood.csv",
+        "records": 65559,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 14,
+          "object": 11
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-service-detection-scan.csv",
+        "records": 165171,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-syn-flood.csv",
+        "records": 65548,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 14,
+          "object": 11
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-syn-stealth.csv",
+        "records": 214065,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-synonymous-ip-flood.csv",
+        "records": 65546,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-tcp-flood.csv",
+        "records": 65543,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-udp-flood.csv",
+        "records": 8490,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 14,
+          "object": 11
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-charging-vulnerability-scan.csv",
+        "records": 110121,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-aggressive-scan.csv",
+        "records": 35957,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 14,
+          "object": 11
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-icmp-flood.csv",
+        "records": 30,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-icmp-fragmentation.csv",
+        "records": 12,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-os-fingerprinting.csv",
+        "records": 45662,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-port-scan.csv",
+        "records": 78145,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-push-ack-flood.csv",
+        "records": 65559,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-service-detection.csv",
+        "records": 33455,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-syn-flood.csv",
+        "records": 65541,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-syn-stealth-scan.csv",
+        "records": 73633,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-synonymous-ip-flood.csv",
+        "records": 65546,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-tcp-flood.csv",
+        "records": 65564,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 15,
+          "object": 10
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 17,
+          "object": 8
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-udp-flood.csv",
+        "records": 8029,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 14,
+          "object": 11
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "conversions_made": 2
+      },
+      {
+        "filename": "EVSE-B-idle-vulnerability-scan.csv",
+        "records": 51607,
+        "original_dtypes": {
+          "int64": 61,
+          "float64": 16,
+          "object": 9
+        },
+        "new_dtypes": {
+          "int64": 61,
+          "float64": 18,
+          "object": 7
+        },
+        "conversions_made": 2
+      }
+    ]
+  },
+  "power": {
+    "total_records": 115298,
+    "total_columns": 10,
+    "original_dtypes": {
+      "object": 6,
+      "int64": 3,
+      "float64": 1
+    },
+    "new_dtypes": {
+      "object": 6,
+      "int64": 3,
+      "float64": 1
+    }
+  },
+  "conversion_date": "2025-10-24 16:26:21"
+}

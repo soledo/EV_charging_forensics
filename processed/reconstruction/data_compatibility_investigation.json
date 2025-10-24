@@ -1,0 +1,129 @@
+{
+  "host": {
+    "total_records": 8474,
+    "timestamp_format": "relative_seconds",
+    "time_min": 5.0,
+    "time_max": 5855.669471,
+    "duration_seconds": 5855.669471,
+    "scenarios": {
+      "Benign": 2302,
+      "0": 2302,
+      "Cryptojacking": 1793,
+      "Recon": 1206,
+      "DoS": 865,
+      "writeback:writeback_write_inode_start": 1
+    }
+  },
+  "network": {
+    "timestamp_format": "unix_milliseconds",
+    "sampled_files": 5,
+    "time_min_unix": 1703101282.204,
+    "time_max_unix": 1703103817.172,
+    "time_min_datetime": "2023-12-21 04:41:22.204000",
+    "time_max_datetime": "2023-12-21 05:23:37.172000",
+    "duration_seconds": 2534.96799993515,
+    "file_details": [
+      {
+        "file": "EVSE-B-MaliciousEV-aggressive-scan.csv",
+        "records": 16361,
+        "time_min_s": 1703103141.202,
+        "time_max_s": 1703103440.41,
+        "time_min_dt": "2023-12-21 05:12:21.202000",
+        "time_max_dt": "2023-12-21 05:17:20.410000",
+        "duration_s": 299.20800018310547
+      },
+      {
+        "file": "EVSE-B-MaliciousEV-os-fingerprinting.csv",
+        "records": 18259,
+        "time_min_s": 1703102324.213,
+        "time_max_s": 1703102612.357,
+        "time_min_dt": "2023-12-21 04:58:44.213000",
+        "time_max_dt": "2023-12-21 05:03:32.357000",
+        "duration_s": 288.14400005340576
+      },
+      {
+        "file": "EVSE-B-MaliciousEV-port-scan.csv",
+        "records": 158013,
+        "time_min_s": 1703101282.204,
+        "time_max_s": 1703101580.719,
+        "time_min_dt": "2023-12-21 04:41:22.204000",
+        "time_max_dt": "2023-12-21 04:46:20.719000",
+        "duration_s": 298.5150001049042
+      },
+      {
+        "file": "EVSE-B-MaliciousEV-service-detection.csv",
+        "records": 87089,
+        "time_min_s": 1703103519.205,
+        "time_max_s": 1703103817.172,
+        "time_min_dt": "2023-12-21 05:18:39.205000",
+        "time_max_dt": "2023-12-21 05:23:37.172000",
+        "duration_s": 297.9670000076294
+      },
+      {
+        "file": "EVSE-B-MaliciousEV-syn-stealth-scan.csv",
+        "records": 228001,
+        "time_min_s": 1703102697.148,
+        "time_max_s": 1703102994.029,
+        "time_min_dt": "2023-12-21 05:04:57.148000",
+        "time_max_dt": "2023-12-21 05:09:54.029000",
+        "duration_s": 296.88100004196167
+      }
+    ]
+  },
+  "power": {
+    "total_records": 115298,
+    "timestamp_format": "human_datetime",
+    "time_min_unix": 1703434680.0,
+    "time_max_unix": 1703953200.0,
+    "time_min_datetime": "2023-12-24 16:18:00",
+    "time_max_datetime": "2023-12-30 16:20:00",
+    "duration_seconds": 518520.0,
+    "attacks": {
+      "vuln-scan": 26246,
+      "tcp-flood": 21367,
+      "Backdoor": 21137,
+      "none": 14363,
+      "syn-flood": 13517,
+      "cryptojacking": 11596,
+      "syn-stealth": 7072
+    }
+  },
+  "compatibility": {
+    "network_power_overlap_seconds": 0.0,
+    "network_power_compatible": false,
+    "host_power_compatible": "unknown",
+    "host_network_compatible": "unknown",
+    "issues": [
+      {
+        "severity": "CRITICAL",
+        "layer": "Host",
+        "issue": "No absolute timestamp reference",
+        "impact": "Cannot align Host events with Network/Power",
+        "solution": "Need metadata or external reference to determine Host T0"
+      },
+      {
+        "severity": "CRITICAL",
+        "layer": "Network-Power",
+        "issue": "No temporal overlap",
+        "impact": "Cannot create unified timeline with both layers",
+        "solution": "Use Network OR Power, not both"
+      },
+      {
+        "severity": "HIGH",
+        "layer": "All",
+        "issue": "Phase 2 normalization bug (Network timestamps not normalized)",
+        "impact": "Current processed data has incompatible timestamps",
+        "solution": "Fix normalize_timestamps.py and re-run Phase 2"
+      }
+    ],
+    "feasibility": "problematic_host_no_t0"
+  },
+  "timestamp": "2025-10-24 20:06:58",
+  "scenario_mapping": {
+    "method": "dos_scenario_alignment",
+    "inferred_host_t0_unix": 1703188980.964,
+    "inferred_host_t0_datetime": "2023-12-22 05:03:00.964000",
+    "host_power_overlap_seconds": 0.0,
+    "hypothesis": "Host DoS scenario starts at same time as Network flood attacks"
+  }
+}

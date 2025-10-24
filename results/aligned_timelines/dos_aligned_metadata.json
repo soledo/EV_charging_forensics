@@ -1,0 +1,22 @@
+{
+  "scenario": "dos",
+  "window_tolerance": 2.5,
+  "has_network": true,
+  "samples_used": {},
+  "missing_rate": {
+    "host": 0.0,
+    "power": 81.9672131147541,
+    "network": 0.0,
+    "overall": 0.27444379391100704
+  },
+  "feature_count": {
+    "host": 887,
+    "network": 5,
+    "power": 3
+  },
+  "shape": {
+    "rows": 61,
+    "columns": 896
+  },
+  "timestamp": "2025-10-25 04:41:01"
+}

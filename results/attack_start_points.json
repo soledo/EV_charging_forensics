@@ -1,0 +1,82 @@
+{
+  "dos": {
+    "host": {
+      "timestamp": 182.32,
+      "feature": "cpu_cycles",
+      "value": 0.3048078768974156,
+      "threshold": 0.10160629681409417,
+      "confidence": "high",
+      "detection_method": "sliding_window_2sigma"
+    },
+    "network": {
+      "timestamp": 1703188985.964,
+      "feature": "packet_count",
+      "value": 30,
+      "packet_rate": 0.10070628678874485,
+      "duration": 297.89599990844727,
+      "confidence": "high",
+      "detection_method": "first_packet_timestamp"
+    },
+    "power": {
+      "timestamp": 75060.0,
+      "feature": "power_mW",
+      "value": 0.5603864734299516,
+      "threshold": 0.5517658251002555,
+      "confidence": "medium",
+      "detection_method": "threshold_crossing"
+    }
+  },
+  "recon": {
+    "host": {
+      "timestamp": 340.2406346,
+      "feature": "cpu_cycles",
+      "value": 0.7776014485249438,
+      "threshold": 0.10160629681409417,
+      "confidence": "high",
+      "detection_method": "sliding_window_2sigma"
+    },
+    "network": {
+      "timestamp": 1703187884.407,
+      "feature": "packet_count",
+      "value": 37872,
+      "packet_rate": 126.30567901090382,
+      "duration": 299.8439998626709,
+      "confidence": "high",
+      "detection_method": "first_packet_timestamp"
+    },
+    "power": {
+      "timestamp": 23580.0,
+      "feature": "power_mW",
+      "value": 0.5603864734299516,
+      "threshold": 0.5517658251002555,
+      "confidence": "medium",
+      "detection_method": "threshold_crossing"
+    }
+  },
+  "cryptojacking": {
+    "host": {
+      "timestamp": 5.001476508,
+      "feature": "cpu_cycles",
+      "value": 1.862526308974597,
+      "threshold": 0.10160629681409417,
+      "confidence": "high",
+      "detection_method": "sliding_window_2sigma"
+    },
+    "network": null,
+    "power": {
+      "timestamp": 164760.0,
+      "feature": "power_mW",
+      "value": 0.714975845410628,
+      "threshold": 0.5517658251002555,
+      "confidence": "medium",
+      "detection_method": "threshold_crossing"
+    }
+  },
+  "metadata": {
+    "method": "anomaly_detection",
+    "threshold": "\u03bc_benign + 2\u03c3",
+    "window_size": 5.0,
+    "confirmation_duration": 10.0,
+    "timestamp": "2025-10-25 04:36:25"
+  }
+}

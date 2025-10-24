@@ -1,0 +1,74 @@
+{
+  "host": {
+    "total_records": 8474,
+    "scenarios": {
+      "Benign": 2302,
+      "0": 2302,
+      "Cryptojacking": 1793,
+      "Recon": 1206,
+      "DoS": 865,
+      "writeback:writeback_write_inode_start": 1
+    }
+  },
+  "network": {
+    "total_files": 31,
+    "scenarios": {
+      "Recon": 17,
+      "DoS": 6,
+      "Benign": 4
+    }
+  },
+  "power": {
+    "total_records": 115298,
+    "attacks": {
+      "vuln-scan": 26246,
+      "tcp-flood": 21367,
+      "Backdoor": 21137,
+      "none": 14363,
+      "syn-flood": 13517,
+      "cryptojacking": 11596,
+      "syn-stealth": 7072
+    }
+  },
+  "comparison": {
+    "unified_scenarios": {
+      "DoS": {
+        "host": 865,
+        "network": 6,
+        "power": 0
+      },
+      "Recon": {
+        "host": 1206,
+        "network": 17,
+        "power": 0
+      },
+      "Cryptojacking": {
+        "host": 1793,
+        "network": 0,
+        "power": 0
+      },
+      "Benign": {
+        "host": 4604,
+        "network": 4,
+        "power": 0
+      }
+    },
+    "attack_adaptive": {
+      "network_originated": {
+        "scenarios": [
+          "DoS",
+          "Recon"
+        ],
+        "total_host_records": 2071
+      },
+      "host_originated": {
+        "scenarios": [
+          "Cryptojacking",
+          "Benign"
+        ],
+        "total_host_records": 6397
+      }
+    }
+  },
+  "analysis_date": "2025-10-24 16:22:55"
+}

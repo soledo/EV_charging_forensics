@@ -1,0 +1,20 @@
+{
+  "scenario": "benign",
+  "window_tolerance": 2.5,
+  "has_network": false,
+  "samples_used": {},
+  "missing_rate": {
+    "host": 0.0,
+    "power": 0.0,
+    "overall": 0.0
+  },
+  "feature_count": {
+    "host": 887,
+    "power": 3
+  },
+  "shape": {
+    "rows": 61,
+    "columns": 891
+  },
+  "timestamp": "2025-10-25 04:41:02"
+}
