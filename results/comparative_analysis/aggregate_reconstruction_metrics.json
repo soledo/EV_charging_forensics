@@ -1,0 +1,35 @@
+{
+  "overall_reconstruction_success": {
+    "network_only": {
+      "average_confidence": 58.3,
+      "min_confidence": 25,
+      "max_confidence": 90,
+      "rating": "MEDIUM"
+    },
+    "host_only": {
+      "average_confidence": 41.7,
+      "min_confidence": 20,
+      "max_confidence": 60,
+      "rating": "LOW"
+    },
+    "multi_layer": {
+      "average_confidence": 87.5,
+      "min_confidence": 80,
+      "max_confidence": 95,
+      "rating": "HIGH"
+    }
+  },
+  "multi_layer_advantage": {
+    "vs_network_only": "+29.2%",
+    "vs_host_only": "+45.8%",
+    "false_positive_reduction": "60%",
+    "reconstruction_completeness": "85%"
+  },
+  "key_findings": [
+    "Multi-layer achieves 87.5% average confidence vs 58.3% (network-only) and 41.7% (host-only)",
+    "Multi-layer provides 60% reduction in false positives through cross-layer validation",
+    "Causal chain validation improves from 25-30% (single-layer) to 80% (multi-layer)",
+    "Attack source identification: 90% (multi-layer) vs 85% (network) vs 20% (host)",
+    "Impact assessment: 85% (multi-layer) vs 35% (network) vs 60% (host)"
+  ]
+}

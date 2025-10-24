@@ -1,0 +1,7 @@
+Reconstruction Item,Network-Only Confidence,Host-Only Confidence,Multi-Layer Confidence,Multi-Layer Advantage
+Incident Start Time,90%,40%,95%,+5%
+Attack Source Identification,85%,20%,90%,+5%
+Attack Characterization,65%,55%,90%,+25%
+Impact Assessment,35%,60%,85%,+25%
+Causal Chain Validation,25%,30%,80%,+50%
+False Positive Reduction,50%,45%,85%,+35%

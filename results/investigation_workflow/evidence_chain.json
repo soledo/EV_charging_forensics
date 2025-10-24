@@ -1,0 +1,23 @@
+{
+  "evidence_collection": {
+    "network_pcap": "EVSE-B-charging-icmp-flood.csv (absolute Unix timestamps)",
+    "host_telemetry": "host_cleaned.csv (relative timestamps converted to estimated absolute)",
+    "power_telemetry": "Not applicable (different experimental session)",
+    "collection_integrity": "VERIFIED - checksums match original dataset"
+  },
+  "evidence_analysis": {
+    "Task 1": "Attack start point detection (2\u03c3 anomaly detection)",
+    "Task 2": "Relative time normalization",
+    "Task 3": "Multi-layer alignment (\u00b12.5s tolerance)",
+    "Task 4": "Temporal evolution characterization",
+    "Task 5": "Time-lagged cross-layer correlation",
+    "Task 8": "Incident-specific timeline reconstruction"
+  },
+  "chain_of_custody": {
+    "data_source": "CICEVSE2024 Dataset (public research dataset)",
+    "processing": "Automated pipeline (Tasks 1-8)",
+    "analyst": "Forensic Reconstruction System",
+    "timestamp": "2025-10-25 07:05:19",
+    "integrity": "MAINTAINED - reproducible analysis"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "incident_id": "dos_incident_001",
+  "reconstruction_timestamp": "2025-10-25 07:01:24",
+  "data_sources": {
+    "network": {
+      "file": "EVSE-B-charging-syn-flood.csv",
+      "timestamp_type": "Absolute Unix time",
+      "confidence": "HIGH (90-100%)",
+      "records_analyzed": 4
+    },
+    "host": {
+      "file": "EVSE-B-charging-dos.csv",
+      "timestamp_type": "ESTIMATED (relative + Network attack start)",
+      "confidence": "MEDIUM (70-89%)",
+      "uncertainty": "\u00b130 seconds",
+      "records_analyzed": 457
+    },
+    "power": {
+      "file": "Representative pattern only",
+      "timestamp_type": "Not applicable (different experimental session)",
+      "confidence": "LOW (50-69%)",
+      "limitation": "No temporal overlap with Network/Host data"
+    }
+  },
+  "limitations": {
+    "temporal_incompatibility": "Network (Dec 21) vs Power (Dec 24-30) - 91.91 hour gap",
+    "host_time_estimation": "Host absolute time calculated as: Network_attack_start - Host_attack_relative",
+    "uncertainty_quantification": {
+      "network_time": "\u00b10.001 seconds (capture precision)",
+      "host_time": "\u00b130 seconds (estimation error)",
+      "power_time": "Not applicable (different session)"
+    },
+    "forensic_validity": "Timeline suitable for incident characterization, NOT for precise time-of-event determination"
+  },
+  "analysis_parameters": {
+    "incident_window": "60 seconds from attack start",
+    "network_attack_start": 1703188985.964,
+    "host_attack_relative": 182.32,
+    "host_t0_estimated": 1703188803.644
+  }
+}
