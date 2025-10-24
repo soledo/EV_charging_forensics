@@ -1,0 +1,27 @@
+{
+  "3layer_dataset": {
+    "scenarios": [
+      "DoS",
+      "Recon"
+    ],
+    "total_records": 2071,
+    "total_features": 911,
+    "host_features": 887,
+    "network_features": 20,
+    "power_features": 4,
+    "layer_composition": "Host + Network + Power"
+  },
+  "2layer_dataset": {
+    "scenarios": [
+      "Benign",
+      "Cryptojacking"
+    ],
+    "total_records": 6397,
+    "total_features": 909,
+    "host_features": 905,
+    "network_features": 0,
+    "power_features": 4,
+    "layer_composition": "Host + Power (NO Network)"
+  },
+  "summary_date": "2025-10-24 16:57:40"
+}

@@ -1,0 +1,214 @@
+{
+  "host": {
+    "columns_before": 916,
+    "columns_after": 912,
+    "unnamed_columns_dropped": 4,
+    "missing_cells_before": 24704,
+    "missing_cells_after": 24,
+    "missing_pct_before": 0.31826094305417135,
+    "missing_pct_after": 0.00031054743301491873,
+    "strategy": "Drop Unnamed columns, fill numeric with 0"
+  },
+  "network": {
+    "total_files": 31,
+    "files": [
+      {
+        "filename": "EVSE-B-MaliciousEV-aggressive-scan_normalized.csv",
+        "records": 16361,
+        "missing_before": 114349,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-os-fingerprinting_normalized.csv",
+        "records": 18259,
+        "missing_before": 127809,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-port-scan_normalized.csv",
+        "records": 158013,
+        "missing_before": 1106091,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-service-detection_normalized.csv",
+        "records": 87089,
+        "missing_before": 609623,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-syn-stealth-scan_normalized.csv",
+        "records": 228001,
+        "missing_before": 1596007,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-vulnerability-scan_normalized.csv",
+        "records": 57058,
+        "missing_before": 399406,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-aggressive-scan_normalized.csv",
+        "records": 37872,
+        "missing_before": 264685,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-icmp-flood_normalized.csv",
+        "records": 30,
+        "missing_before": 203,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-os-fingerprinting_normalized.csv",
+        "records": 67971,
+        "missing_before": 475792,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-port-scan_normalized.csv",
+        "records": 177409,
+        "missing_before": 1241857,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-push-ack-flood_normalized.csv",
+        "records": 65559,
+        "missing_before": 458903,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-service-detection-scan_normalized.csv",
+        "records": 165171,
+        "missing_before": 1156193,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-syn-flood_normalized.csv",
+        "records": 65548,
+        "missing_before": 458830,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-syn-stealth_normalized.csv",
+        "records": 214065,
+        "missing_before": 1498451,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-synonymous-ip-flood_normalized.csv",
+        "records": 65546,
+        "missing_before": 458815,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-tcp-flood_normalized.csv",
+        "records": 65543,
+        "missing_before": 458796,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-udp-flood_normalized.csv",
+        "records": 8490,
+        "missing_before": 59418,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-charging-vulnerability-scan_normalized.csv",
+        "records": 110121,
+        "missing_before": 770839,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-aggressive-scan_normalized.csv",
+        "records": 35957,
+        "missing_before": 251310,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-icmp-flood_normalized.csv",
+        "records": 30,
+        "missing_before": 203,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-icmp-fragmentation_normalized.csv",
+        "records": 12,
+        "missing_before": 79,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-os-fingerprinting_normalized.csv",
+        "records": 45662,
+        "missing_before": 319631,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-port-scan_normalized.csv",
+        "records": 78145,
+        "missing_before": 547010,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-push-ack-flood_normalized.csv",
+        "records": 65559,
+        "missing_before": 458901,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-service-detection_normalized.csv",
+        "records": 33455,
+        "missing_before": 234182,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-syn-flood_normalized.csv",
+        "records": 65541,
+        "missing_before": 458785,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-syn-stealth-scan_normalized.csv",
+        "records": 73633,
+        "missing_before": 515426,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-synonymous-ip-flood_normalized.csv",
+        "records": 65546,
+        "missing_before": 458816,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-tcp-flood_normalized.csv",
+        "records": 65564,
+        "missing_before": 458930,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-udp-flood_normalized.csv",
+        "records": 8029,
+        "missing_before": 56196,
+        "missing_after": 0
+      },
+      {
+        "filename": "EVSE-B-idle-vulnerability-scan_normalized.csv",
+        "records": 51607,
+        "missing_before": 361244,
+        "missing_after": 0
+      }
+    ],
+    "total_missing_before": 15376780,
+    "total_missing_after": 0,
+    "strategy": "Fill HTTP columns with empty string, numeric with 0"
+  },
+  "power": {
+    "total_records": 115298,
+    "total_columns": 13,
+    "missing_before": 0,
+    "missing_after": 0,
+    "strategy": "No action needed (no missing values)"
+  },
+  "handling_date": "2025-10-24 16:36:50"
+}

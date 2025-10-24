@@ -1,0 +1,26 @@
+{
+  "type": "synthetic_timeline",
+  "warning": "This is NOT true Event Reconstruction - features are scenario-based aggregates",
+  "strategy": "Host time-varying + Network/Power representative statistics",
+  "temporal_compatibility": {
+    "host": "time-varying (actual DoS timestamps)",
+    "network": "synthetic (representative flood pattern from Dec 21)",
+    "power": "synthetic (representative flood pattern from Dec 24-30)"
+  },
+  "shape": {
+    "rows": 333,
+    "columns": 33
+  },
+  "features": {
+    "host": 20,
+    "network": 8,
+    "power": 4
+  },
+  "data_quality": {
+    "missing_percentage": 0.0,
+    "host_zero_activity_pct": 72.67267267267268,
+    "network_constant": true,
+    "power_constant": true
+  },
+  "timestamp": "2025-10-25 02:43:40"
+}

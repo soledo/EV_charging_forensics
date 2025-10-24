@@ -1,0 +1,183 @@
+{
+  "host": {
+    "total_features": 905,
+    "scaler_type": "StandardScaler",
+    "mean_before": 111558581.34467027,
+    "std_before": 1132508679.6467154,
+    "mean_after": -1.1266440821704633e-18,
+    "std_after": 0.56018939180971
+  },
+  "network": {
+    "total_files": 31,
+    "total_features": 78,
+    "scaler_type": "StandardScaler",
+    "files": [
+      {
+        "filename": "EVSE-B-MaliciousEV-aggressive-scan_cleaned.csv",
+        "records": 16361,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-os-fingerprinting_cleaned.csv",
+        "records": 18259,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-port-scan_cleaned.csv",
+        "records": 158013,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-service-detection_cleaned.csv",
+        "records": 87089,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-syn-stealth-scan_cleaned.csv",
+        "records": 228001,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-MaliciousEV-vulnerability-scan_cleaned.csv",
+        "records": 57058,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-aggressive-scan_cleaned.csv",
+        "records": 37872,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-icmp-flood_cleaned.csv",
+        "records": 30,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-os-fingerprinting_cleaned.csv",
+        "records": 67971,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-port-scan_cleaned.csv",
+        "records": 177409,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-push-ack-flood_cleaned.csv",
+        "records": 65559,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-service-detection-scan_cleaned.csv",
+        "records": 165171,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-syn-flood_cleaned.csv",
+        "records": 65548,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-syn-stealth_cleaned.csv",
+        "records": 214065,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-synonymous-ip-flood_cleaned.csv",
+        "records": 65546,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-tcp-flood_cleaned.csv",
+        "records": 65543,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-udp-flood_cleaned.csv",
+        "records": 8490,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-charging-vulnerability-scan_cleaned.csv",
+        "records": 110121,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-aggressive-scan_cleaned.csv",
+        "records": 35957,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-icmp-flood_cleaned.csv",
+        "records": 30,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-icmp-fragmentation_cleaned.csv",
+        "records": 12,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-os-fingerprinting_cleaned.csv",
+        "records": 45662,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-port-scan_cleaned.csv",
+        "records": 78145,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-push-ack-flood_cleaned.csv",
+        "records": 65559,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-service-detection_cleaned.csv",
+        "records": 33455,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-syn-flood_cleaned.csv",
+        "records": 65541,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-syn-stealth-scan_cleaned.csv",
+        "records": 73633,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-synonymous-ip-flood_cleaned.csv",
+        "records": 65546,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-tcp-flood_cleaned.csv",
+        "records": 65564,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-udp-flood_cleaned.csv",
+        "records": 8029,
+        "features_scaled": 78
+      },
+      {
+        "filename": "EVSE-B-idle-vulnerability-scan_cleaned.csv",
+        "records": 51607,
+        "features_scaled": 78
+      }
+    ],
+    "scaler_mean": 131129685237.37234,
+    "scaler_std": 634560062.4494027
+  },
+  "power": {
+    "total_features": 4,
+    "scaler_type": "MinMaxScaler",
+    "min_before": 5.149,
+    "max_before": 6300.0,
+    "min_after": 0.0,
+    "max_after": 1.0
+  },
+  "scaling_date": "2025-10-24 16:39:45"
+}

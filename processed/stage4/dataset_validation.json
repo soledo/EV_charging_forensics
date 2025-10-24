@@ -1,0 +1,47 @@
+{
+  "3layer": {
+    "missing_values": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "scenario_distribution": {
+      "Recon": 1206,
+      "DoS": 865
+    },
+    "quality": "pass",
+    "feature_composition": {
+      "has_network": true,
+      "has_power": true,
+      "network_count": 3,
+      "power_count": 4,
+      "validation": "pass"
+    }
+  },
+  "2layer": {
+    "missing_values": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "scenario_distribution": {
+      "Benign": 2302,
+      "0": 2302,
+      "Cryptojacking": 1793
+    },
+    "quality": "pass",
+    "feature_composition": {
+      "has_network_traffic": false,
+      "has_power": true,
+      "network_traffic_count": 0,
+      "power_count": 4,
+      "validation": "pass"
+    }
+  },
+  "overall": {
+    "passed_checks": 4,
+    "total_checks": 4,
+    "validation_score": 100.0,
+    "status": "pass",
+    "total_records": 8468,
+    "3layer_records": 2071,
+    "2layer_records": 6397
+  },
+  "validation_date": "2025-10-24 16:58:35"
+}

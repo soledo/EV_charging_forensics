@@ -1,0 +1,139 @@
+{
+  "total_files_analyzed": 16,
+  "total_windows_found": 16,
+  "top_windows": [
+    {
+      "file": "EVSE-B-idle-syn-stealth-scan_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703091216.232,
+      "end_time": 1703091276.232,
+      "packet_count": 1002,
+      "packet_rate": 16.7,
+      "unique_ports": 1001,
+      "port_diversity": 0.999001996007984,
+      "syn_ratio": -0.03795255703900686,
+      "score": 0.39322503129149156
+    },
+    {
+      "file": "EVSE-B-idle-service-detection_scaled.csv",
+      "window_id": 1,
+      "start_time": 1703091953.321,
+      "end_time": 1703092013.321,
+      "packet_count": 59,
+      "packet_rate": 0.9833333333333333,
+      "unique_ports": 58,
+      "port_diversity": 0.9830508474576272,
+      "syn_ratio": -0.03404201210892191,
+      "score": 0.3833027353503743
+    },
+    {
+      "file": "EVSE-B-MaliciousEV-syn-stealth-scan_scaled.csv",
+      "window_id": 7,
+      "start_time": 1703102907.148,
+      "end_time": 1703102967.148,
+      "packet_count": 59000,
+      "packet_rate": 983.3333333333334,
+      "unique_ports": 1000,
+      "port_diversity": 0.01694915254237288,
+      "syn_ratio": -0.030123646088976767,
+      "score": 0.2927425671902561
+    },
+    {
+      "file": "EVSE-B-MaliciousEV-port-scan_scaled.csv",
+      "window_id": 3,
+      "start_time": 1703101372.204,
+      "end_time": 1703101432.204,
+      "packet_count": 53000,
+      "packet_rate": 883.3333333333334,
+      "unique_ports": 1000,
+      "port_diversity": 0.018867924528301886,
+      "syn_ratio": -0.030123646088976767,
+      "score": 0.2635100759846277
+    },
+    {
+      "file": "EVSE-B-MaliciousEV-os-fingerprinting_scaled.csv",
+      "window_id": 6,
+      "start_time": 1703102504.213,
+      "end_time": 1703102564.213,
+      "packet_count": 3054,
+      "packet_rate": 50.9,
+      "unique_ports": 1004,
+      "port_diversity": 0.3287491814014407,
+      "syn_ratio": 0.3624134889267835,
+      "score": 0.25549371923861136
+    },
+    {
+      "file": "EVSE-B-MaliciousEV-aggressive-scan_scaled.csv",
+      "window_id": 5,
+      "start_time": 1703103291.202,
+      "end_time": 1703103351.202,
+      "packet_count": 3077,
+      "packet_rate": 51.28333333333333,
+      "unique_ports": 1003,
+      "port_diversity": 0.3259668508287293,
+      "syn_ratio": 0.32379381876679497,
+      "score": 0.24290988596153024
+    },
+    {
+      "file": "EVSE-B-charging-port-scan_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703186790.181,
+      "end_time": 1703186850.181,
+      "packet_count": 44012,
+      "packet_rate": 733.5333333333333,
+      "unique_ports": 1001,
+      "port_diversity": 0.022743797146232845,
+      "syn_ratio": -0.029590537488426206,
+      "score": 0.22028035761196524
+    },
+    {
+      "file": "EVSE-B-charging-aggressive-scan_scaled.csv",
+      "window_id": 4,
+      "start_time": 1703188004.407,
+      "end_time": 1703188064.407,
+      "packet_count": 2050,
+      "packet_rate": 34.166666666666664,
+      "unique_ports": 1002,
+      "port_diversity": 0.48878048780487804,
+      "syn_ratio": 0.025211327704882477,
+      "score": 0.21332559343341598
+    },
+    {
+      "file": "EVSE-B-MaliciousEV-service-detection_scaled.csv",
+      "window_id": 4,
+      "start_time": 1703103639.205,
+      "end_time": 1703103699.205,
+      "packet_count": 12012,
+      "packet_rate": 200.2,
+      "unique_ports": 1000,
+      "port_diversity": 0.08325008325008325,
+      "syn_ratio": 0.30031739268992563,
+      "score": 0.183455251107011
+    },
+    {
+      "file": "EVSE-B-charging-vulnerability-scan_scaled.csv",
+      "window_id": 6,
+      "start_time": 1703188763.658,
+      "end_time": 1703188823.658,
+      "packet_count": 24027,
+      "packet_rate": 400.45,
+      "unique_ports": 1000,
+      "port_diversity": 0.04161984434178216,
+      "syn_ratio": 0.13719386090653507,
+      "score": 0.17794109600867336
+    }
+  ],
+  "selected_window": {
+    "file": "EVSE-B-idle-syn-stealth-scan_scaled.csv",
+    "window_id": 0,
+    "start_time": 1703091216.232,
+    "end_time": 1703091276.232,
+    "packet_count": 1002,
+    "packet_rate": 16.7,
+    "unique_ports": 1001,
+    "port_diversity": 0.999001996007984,
+    "syn_ratio": -0.03795255703900686,
+    "score": 0.39322503129149156
+  },
+  "discovery_date": "2025-10-24 16:48:12"
+}

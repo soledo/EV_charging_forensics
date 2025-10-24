@@ -1,0 +1,128 @@
+{
+  "total_files_analyzed": 13,
+  "total_windows_found": 13,
+  "top_windows": [
+    {
+      "file": "EVSE-B-idle-tcp-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703094531.177,
+      "end_time": 1703094561.177,
+      "packet_count": 65536,
+      "packet_rate": 2184.5333333333333,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.9970535552339127,
+      "score": 0.7178640443801159
+    },
+    {
+      "file": "EVSE-B-idle-synonymous-ip-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703095291.229,
+      "end_time": 1703095321.229,
+      "packet_count": 65537,
+      "packet_rate": 2184.5666666666666,
+      "protocol_concentration": 0.9999847414437646,
+      "size_uniformity": 0.9965914834428684,
+      "score": 0.7177703857883697
+    },
+    {
+      "file": "EVSE-B-idle-push-ack-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703093318.279,
+      "end_time": 1703093348.279,
+      "packet_count": 65537,
+      "packet_rate": 2184.5666666666666,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.9912996710291986,
+      "score": 0.7167166008725064
+    },
+    {
+      "file": "EVSE-B-idle-syn-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703094891.382,
+      "end_time": 1703094921.382,
+      "packet_count": 65536,
+      "packet_rate": 2184.5333333333333,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.9879510719310419,
+      "score": 0.7160435477195417
+    },
+    {
+      "file": "EVSE-B-charging-tcp-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703190099.865,
+      "end_time": 1703190129.865,
+      "packet_count": 65538,
+      "packet_rate": 2184.6,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.6405369933888,
+      "score": 0.6465673986777599
+    },
+    {
+      "file": "EVSE-B-charging-syn-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703190560.289,
+      "end_time": 1703190590.289,
+      "packet_count": 65538,
+      "packet_rate": 2184.6,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.6358459584603653,
+      "score": 0.645629191692073
+    },
+    {
+      "file": "EVSE-B-charging-push-ack-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703189379.924,
+      "end_time": 1703189409.924,
+      "packet_count": 65538,
+      "packet_rate": 2184.6,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.6336694835042677,
+      "score": 0.6451938967008535
+    },
+    {
+      "file": "EVSE-B-charging-synonymous-ip-flood_scaled.csv",
+      "window_id": 0,
+      "start_time": 1703191069.923,
+      "end_time": 1703191099.923,
+      "packet_count": 65537,
+      "packet_rate": 2184.5666666666666,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.6333736552316513,
+      "score": 0.645131397712997
+    },
+    {
+      "file": "EVSE-B-charging-udp-flood_scaled.csv",
+      "window_id": 18,
+      "start_time": 1703182505.061,
+      "end_time": 1703182535.061,
+      "packet_count": 854,
+      "packet_rate": 28.466666666666665,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.9999999999999998,
+      "score": 0.5028466666666667
+    },
+    {
+      "file": "EVSE-B-idle-udp-flood_scaled.csv",
+      "window_id": 1,
+      "start_time": 1703181226.48,
+      "end_time": 1703181256.48,
+      "packet_count": 850,
+      "packet_rate": 28.333333333333332,
+      "protocol_concentration": 1.0,
+      "size_uniformity": 0.9999999999999996,
+      "score": 0.5028333333333332
+    }
+  ],
+  "selected_window": {
+    "file": "EVSE-B-idle-tcp-flood_scaled.csv",
+    "window_id": 0,
+    "start_time": 1703094531.177,
+    "end_time": 1703094561.177,
+    "packet_count": 65536,
+    "packet_rate": 2184.5333333333333,
+    "protocol_concentration": 1.0,
+    "size_uniformity": 0.9970535552339127,
+    "score": 0.7178640443801159
+  },
+  "discovery_date": "2025-10-24 16:49:29"
+}

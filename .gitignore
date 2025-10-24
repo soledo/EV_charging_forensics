@@ -1,0 +1,42 @@
+# Dataset (large files)
+CICEVSE2024_Dataset/
+
+# Processed data (large files)
+processed/stage2/*.csv
+processed/stage3/*.csv
+processed/stage4/*.csv
+processed/reconstruction/*.csv
+
+# Model files
+models/scalers/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keep important results
+!results/
+!figures/
+!scripts/

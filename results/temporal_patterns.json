@@ -1,0 +1,369 @@
+{
+  "dos": {
+    "scenario": "dos",
+    "has_network": true,
+    "phases": {
+      "initiation_host": {
+        "mean": 0.12231655579596985,
+        "std": 0.027641885234543306,
+        "max": 6.564833626173342,
+        "min": -0.6468081812734849,
+        "trend": -0.0007520994228539888,
+        "samples": 10
+      },
+      "initiation_net": {
+        "mean": 13341670.825,
+        "std": 17920324.43849477,
+        "max": 215556236.0,
+        "min": 0.0,
+        "trend": -5223719.651818181,
+        "samples": 10
+      },
+      "initiation_power": {
+        "mean": 0.3300678896725807,
+        "std": 1.9781305624072497e-17,
+        "max": 0.7966101694915346,
+        "min": 0.0918167043079975,
+        "trend": 2.64338815386942e-18,
+        "samples": 10
+      },
+      "peak_host": {
+        "mean": 0.05606139530369784,
+        "std": 0.04067634665754857,
+        "max": 5.740200928597565,
+        "min": -0.9170579857468428,
+        "trend": -0.004242121725782437,
+        "samples": 20
+      },
+      "peak_net": {
+        "mean": 0.6499999999999999,
+        "std": 1.1550803116302302,
+        "max": 12.4,
+        "min": 0.0,
+        "trend": -0.04887218045112782,
+        "samples": 20
+      },
+      "peak_power": {
+        "mean": 0.0,
+        "std": 0.0,
+        "max": 0.0,
+        "min": 0.0,
+        "trend": 0.0,
+        "samples": 20
+      },
+      "sustained_host": {
+        "mean": 0.040328134201339905,
+        "std": 0.028064791050574394,
+        "max": 4.496186390244612,
+        "min": -0.8491461903467277,
+        "trend": 0.00011501224588775172,
+        "samples": 30
+      },
+      "sustained_net": {
+        "mean": 0.0,
+        "std": 0.0,
+        "max": 0.0,
+        "min": 0.0,
+        "trend": 0.0,
+        "samples": 30
+      },
+      "sustained_power": {
+        "mean": 0.3188419558036151,
+        "std": 0.0,
+        "max": 0.812643678160929,
+        "min": 0.0715850045089534,
+        "trend": 0.0,
+        "samples": 30
+      }
+    },
+    "critical_events": [
+      {
+        "event": "peak_intensity",
+        "time": 7,
+        "value": 112.97718401800961,
+        "layer": "host",
+        "description": "Maximum host activity"
+      },
+      {
+        "event": "plateau_onset",
+        "time": 1,
+        "value": 108.90306430846988,
+        "layer": "host",
+        "description": "Signal stabilization"
+      },
+      {
+        "event": "network_peak",
+        "time": 0,
+        "value": 226305695.0,
+        "layer": "network",
+        "description": "Maximum network activity"
+      },
+      {
+        "event": "power_peak",
+        "time": 1,
+        "value": 0.3300678896725807,
+        "layer": "power",
+        "description": "Maximum power consumption"
+      }
+    ],
+    "timestamp": "2025-10-25 04:42:16"
+  },
+  "recon": {
+    "scenario": "recon",
+    "has_network": true,
+    "phases": {
+      "initiation_host": {
+        "mean": 0.6568821688949905,
+        "std": 0.48301451209577867,
+        "max": 77.87030215684882,
+        "min": -0.810014925154827,
+        "trend": -0.13129306586398726,
+        "samples": 10
+      },
+      "initiation_net": {
+        "mean": 46585.45700000001,
+        "std": 66581.9461766191,
+        "max": 873355.0,
+        "min": 214.4,
+        "trend": -17952.532787878794,
+        "samples": 10
+      },
+      "initiation_power": {
+        "mean": 0.3421373511390174,
+        "std": 0.0,
+        "max": 0.7724137931034566,
+        "min": 0.1241465195173272,
+        "trend": 0.0,
+        "samples": 10
+      },
+      "peak_host": {
+        "mean": 0.2275034709276685,
+        "std": 0.2252012207169513,
+        "max": 51.96790830039312,
+        "min": -0.8827817809744335,
+        "trend": -0.018503627846341842,
+        "samples": 20
+      },
+      "peak_net": {
+        "mean": 5773.303999999999,
+        "std": 1992.3945166180463,
+        "max": 52585.6,
+        "min": 12.8,
+        "trend": -156.38592481203003,
+        "samples": 20
+      },
+      "peak_power": {
+        "mean": 0.0,
+        "std": 0.0,
+        "max": 0.0,
+        "min": 0.0,
+        "trend": 0.0,
+        "samples": 20
+      },
+      "sustained_host": {
+        "mean": 0.07326435670674353,
+        "std": 0.05197254746761141,
+        "max": 9.167414216148288,
+        "min": -0.7392656643889606,
+        "trend": -0.002428202661408659,
+        "samples": 30
+      },
+      "sustained_net": {
+        "mean": 4896.360333333334,
+        "std": 2580.3809122014486,
+        "max": 52790.2,
+        "min": 0.0,
+        "trend": 165.20157730812016,
+        "samples": 30
+      },
+      "sustained_power": {
+        "mean": 0.33306558980092366,
+        "std": 0.0,
+        "max": 0.7793103448275951,
+        "min": 0.1067763129643148,
+        "trend": 0.0,
+        "samples": 30
+      }
+    },
+    "critical_events": [
+      {
+        "event": "peak_intensity",
+        "time": 0,
+        "value": 1100.4307104342377,
+        "layer": "host",
+        "description": "Maximum host activity"
+      },
+      {
+        "event": "plateau_onset",
+        "time": 1,
+        "value": 1100.4307104342377,
+        "layer": "host",
+        "description": "Signal stabilization"
+      },
+      {
+        "event": "network_peak",
+        "time": 0,
+        "value": 889538.0000000001,
+        "layer": "network",
+        "description": "Maximum network activity"
+      },
+      {
+        "event": "power_peak",
+        "time": 0,
+        "value": 0.3421373511390174,
+        "layer": "power",
+        "description": "Maximum power consumption"
+      }
+    ],
+    "timestamp": "2025-10-25 04:42:16"
+  },
+  "cryptojacking": {
+    "scenario": "cryptojacking",
+    "has_network": false,
+    "phases": {
+      "initiation_host": {
+        "mean": 0.06369393887326925,
+        "std": 0.01457287425876546,
+        "max": 2.324065791392864,
+        "min": -0.672087300015343,
+        "trend": 0.0034919462711248744,
+        "samples": 10
+      },
+      "initiation_power": {
+        "mean": 0.5262818032561932,
+        "std": 0.0,
+        "max": 0.6481711525189785,
+        "min": 0.2914285714285731,
+        "trend": 0.0,
+        "samples": 10
+      },
+      "peak_host": {
+        "mean": 0.07726701807060422,
+        "std": 0.006357006919879466,
+        "max": 2.653609229258582,
+        "min": -0.6720873000153429,
+        "trend": 0.0001639476597289237,
+        "samples": 20
+      },
+      "peak_power": {
+        "mean": 0.0,
+        "std": 0.0,
+        "max": 0.0,
+        "min": 0.0,
+        "trend": 0.0,
+        "samples": 20
+      },
+      "sustained_host": {
+        "mean": 0.07268978735374043,
+        "std": 0.012476312481405833,
+        "max": 2.467421865453747,
+        "min": -0.672087300015343,
+        "trend": 0.00022520699437316043,
+        "samples": 30
+      },
+      "sustained_power": {
+        "mean": 0.5330557012900783,
+        "std": 0.0,
+        "max": 0.6561386181131104,
+        "min": 0.2873563218390835,
+        "trend": 0.0,
+        "samples": 30
+      }
+    },
+    "critical_events": [
+      {
+        "event": "peak_intensity",
+        "time": 48,
+        "value": 73.88446865690088,
+        "layer": "host",
+        "description": "Maximum host activity"
+      },
+      {
+        "event": "plateau_onset",
+        "time": 1,
+        "value": 45.28877531852259,
+        "layer": "host",
+        "description": "Signal stabilization"
+      },
+      {
+        "event": "power_peak",
+        "time": 58,
+        "value": 0.5330557012900783,
+        "layer": "power",
+        "description": "Maximum power consumption"
+      }
+    ],
+    "timestamp": "2025-10-25 04:42:17"
+  },
+  "benign": {
+    "scenario": "benign",
+    "has_network": false,
+    "phases": {
+      "initiation_host": {
+        "mean": 0.090571827327029,
+        "std": 0.0634723847442383,
+        "max": 3.090681514740991,
+        "min": -1.6294895033877874,
+        "trend": -0.006805456883534864,
+        "samples": 10
+      },
+      "initiation_power": {
+        "mean": 0.34696916554868035,
+        "std": 0.00991944027362802,
+        "max": 0.8133333333333439,
+        "min": 0.1001245330012453,
+        "trend": 0.0007706713205658667,
+        "samples": 10
+      },
+      "peak_host": {
+        "mean": 0.03038337040806261,
+        "std": 0.040619332891232575,
+        "max": 6.205110922836858,
+        "min": -1.6294895033877874,
+        "trend": -0.0014669171601333097,
+        "samples": 20
+      },
+      "peak_power": {
+        "mean": 0.3499098589628695,
+        "std": 0.022785021346157536,
+        "max": 0.8400000000000091,
+        "min": 0.0821256038647342,
+        "trend": -0.00036144892042827917,
+        "samples": 20
+      },
+      "sustained_host": {
+        "mean": 0.06549076425540885,
+        "std": 0.05906621456831023,
+        "max": 6.318938132524652,
+        "min": -1.6294895033877874,
+        "trend": 0.003770193882907647,
+        "samples": 30
+      },
+      "sustained_power": {
+        "mean": 0.35702626645873564,
+        "std": 0.04160300894434734,
+        "max": 0.8133333333333439,
+        "min": 0.0991282689912826,
+        "trend": 0.00023080681331049977,
+        "samples": 30
+      }
+    },
+    "critical_events": [
+      {
+        "event": "peak_intensity",
+        "time": 3,
+        "value": 152.6215283350023,
+        "layer": "host",
+        "description": "Maximum host activity"
+      },
+      {
+        "event": "power_peak",
+        "time": 60,
+        "value": 0.4296035599192251,
+        "layer": "power",
+        "description": "Maximum power consumption"
+      }
+    ],
+    "timestamp": "2025-10-25 04:42:17"
+  }
+}

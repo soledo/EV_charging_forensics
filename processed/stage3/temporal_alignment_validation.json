@@ -1,0 +1,53 @@
+{
+  "recon": {
+    "completeness": 1.0,
+    "purity": 1.0,
+    "total_records": 1206,
+    "alignment_method": "pattern_based_scenario_matching",
+    "power_correlation": {
+      "mean": 0.08970677236166313,
+      "std": 0.056639309551318844,
+      "min": 0.0579710144927536,
+      "max": 0.6908212560386474,
+      "records": 33318
+    },
+    "temporal_consistency": {
+      "median_gap": 0.010787820000004444,
+      "max_gap": 5.251794399999994,
+      "consistency": "consistent"
+    }
+  },
+  "dos": {
+    "completeness": 1.0,
+    "purity": 1.0,
+    "total_records": 865,
+    "alignment_method": "pattern_based_scenario_matching",
+    "power_correlation": {
+      "mean": 0.30006309385917823,
+      "std": 0.2896512972109573,
+      "min": 0.0483091787439613,
+      "max": 1.0,
+      "records": 34884
+    },
+    "temporal_consistency": {
+      "median_gap": 0.008493899999990617,
+      "max_gap": 5.071881700000006,
+      "consistency": "consistent"
+    }
+  },
+  "overall": {
+    "power_discriminability": {
+      "separation": 0.2103563214975151,
+      "discriminability": 1.2149120847619288,
+      "quality": "good"
+    },
+    "quality_scores": {
+      "recon_quality": 1.0,
+      "dos_quality": 1.0,
+      "overall_quality": 1.0,
+      "rating": "excellent"
+    }
+  },
+  "validation_date": "2025-10-24 16:51:36",
+  "validation_method": "pattern_based_scenario_matching_with_power_correlation"
+}

@@ -1,0 +1,14 @@
+{
+  "total_records": 2071,
+  "recon_records": 1206,
+  "dos_records": 865,
+  "total_features": 936,
+  "host_features": 887,
+  "network_features": 38,
+  "power_features": 4,
+  "scenarios": [
+    "Recon",
+    "DoS"
+  ],
+  "creation_date": "2025-10-24 16:55:06"
+}
