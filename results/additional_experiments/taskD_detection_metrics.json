@@ -1,0 +1,96 @@
+{
+  "detection_thresholds": {
+    "correlation_threshold": 0.5,
+    "pvalue_threshold": 0.05,
+    "network_threshold": 0.4,
+    "host_threshold": 0.3,
+    "multi_layer_threshold": 0.5
+  },
+  "metrics": {
+    "network_only": {
+      "approach": "Network-Only",
+      "accuracy": 0.75,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1_score": 0.8,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.3333333333333333,
+      "true_positives": 2,
+      "false_positives": 0,
+      "true_negatives": 1,
+      "false_negatives": 1
+    },
+    "host_only": {
+      "approach": "Host-Only",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0,
+      "true_positives": 3,
+      "false_positives": 0,
+      "true_negatives": 1,
+      "false_negatives": 0
+    },
+    "multi_layer": {
+      "approach": "Multi-Layer",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0,
+      "true_positives": 3,
+      "false_positives": 0,
+      "true_negatives": 1,
+      "false_negatives": 0
+    }
+  },
+  "multi_layer_advantage": {
+    "accuracy_improvement": 0.0,
+    "precision_improvement": 0.0,
+    "recall_improvement": 0.0,
+    "f1_improvement": 0.0,
+    "fpr_reduction": 0.0,
+    "fnr_reduction": 0.3333333333333333
+  },
+  "confusion_matrices": {
+    "network_only": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "host_only": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "multi_layer": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "metadata": {
+    "analysis_date": "2025-10-25T09:52:28.393107",
+    "task": "Task D - False Positive/Negative Analysis",
+    "dataset": "CICEVSE2024",
+    "scenarios_analyzed": 4
+  }
+}
