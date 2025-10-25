@@ -1,0 +1,4 @@
+approach,accuracy,precision,recall,f1_score,false_positive_rate,false_negative_rate,true_positives,false_positives,true_negatives,false_negatives
+Network-Only,0.75,1.0,0.6666666666666666,0.8,0.0,0.3333333333333333,2,0,1,1
+Host-Only,1.0,1.0,1.0,1.0,0.0,0.0,3,0,1,0
+Multi-Layer,1.0,1.0,1.0,1.0,0.0,0.0,3,0,1,0

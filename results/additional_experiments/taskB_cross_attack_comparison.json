@@ -1,0 +1,62 @@
+{
+  "analysis_date": "2025-10-25T09:50:00.212634",
+  "objective": "Compare propagation patterns across attack types",
+  "methodology": "Cross-attack temporal correlation analysis",
+  "attacks_analyzed": [
+    "DOS",
+    "Reconnaissance",
+    "Cryptojacking"
+  ],
+  "comparison_matrix": {
+    "DOS": {
+      "primary_layer_pair": "Network \u2192 Host",
+      "lag_seconds": 6,
+      "correlation": 0.6419058991259942,
+      "p_value": 1.2802577403039987e-07,
+      "propagation_speed": "MODERATE",
+      "attack_nature": "Volume-based flood",
+      "layers_involved": 3
+    },
+    "Reconnaissance": {
+      "primary_layer_pair": "Network \u2192 Host",
+      "lag_seconds": 1,
+      "correlation": 0.8247516738045383,
+      "p_value": 5.489867258363082e-16,
+      "propagation_speed": "RAPID",
+      "attack_nature": "Scan-based probing",
+      "layers_involved": 3
+    },
+    "Cryptojacking": {
+      "primary_layer_pair": "Host \u2192 Power",
+      "lag_seconds": 6,
+      "correlation": 0.9974495889397315,
+      "p_value": 0.00015455494965668803,
+      "propagation_speed": "MODERATE",
+      "attack_nature": "Host-originated mining",
+      "layers_involved": 2
+    }
+  },
+  "key_findings": [
+    "Reconnaissance shows 6x faster Network\u2192Host propagation than DOS (1s vs 6s)",
+    "Cryptojacking validated as host-originated with no network component",
+    "All attacks show statistically significant propagation patterns (p<0.05)",
+    "Correlation strengths: Crypto (0.997) > Recon (0.825) > DOS (0.642)",
+    "Attack-adaptive layer selection validated (2-layer vs 3-layer)"
+  ],
+  "attack_classification": {
+    "network_originated": [
+      "DOS",
+      "Reconnaissance"
+    ],
+    "host_originated": [
+      "Cryptojacking"
+    ],
+    "rapid_propagation": [
+      "Reconnaissance"
+    ],
+    "moderate_propagation": [
+      "DOS",
+      "Cryptojacking"
+    ]
+  }
+}

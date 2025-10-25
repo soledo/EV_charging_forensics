@@ -1,0 +1,4 @@
+Attack Type,Layer Pair,Lag (s),Correlation (r),P-value,Speed,Nature,Layers
+DOS,Network → Host,6,0.642,1.28e-07,MODERATE,Volume-based flood,3
+Reconnaissance,Network → Host,1,0.825,5.49e-16,RAPID,Scan-based probing,3
+Cryptojacking,Host → Power,6,0.997,1.55e-04,MODERATE,Host-originated mining,2
