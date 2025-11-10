@@ -1,0 +1,20 @@
+2-Layer Model Classification Report
+==================================================
+
+Features: 50 host + 5 network
+
+               precision    recall  f1-score   support
+
+       Benign       1.00      1.00      1.00        12
+          DoS       1.00      1.00      1.00        12
+        Recon       1.00      1.00      1.00        13
+Cryptojacking       1.00      1.00      1.00        12
+
+     accuracy                           1.00        49
+    macro avg       1.00      1.00      1.00        49
+ weighted avg       1.00      1.00      1.00        49
+
+
+Layer Importance:
+  Host: 0.9441 (94.4%)
+  Network: 0.0559 (5.6%)

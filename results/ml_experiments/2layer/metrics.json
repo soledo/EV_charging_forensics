@@ -1,0 +1,157 @@
+{
+  "model": "2-Layer Random Forest (Host + Network)",
+  "n_features": 55,
+  "n_host_features": 50,
+  "n_network_features": 5,
+  "hyperparameters": {
+    "n_estimators": 100,
+    "random_state": 42
+  },
+  "performance": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision_macro": 1.0,
+    "test_recall_macro": 1.0,
+    "test_f1_macro": 1.0
+  },
+  "per_class_f1": {
+    "Benign": 1.0,
+    "DoS": 1.0,
+    "Recon": 1.0,
+    "Cryptojacking": 1.0
+  },
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      13,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      12
+    ]
+  ],
+  "layer_importance": {
+    "host_total": 0.9441122668621426,
+    "network_total": 0.05588773313785747,
+    "host_percentage": 94.41122668621425,
+    "network_percentage": 5.588773313785747
+  },
+  "top_20_features": [
+    {
+      "feature": "host_syscalls_sys_exit_rt_sigprocmask",
+      "importance": 0.021554615997890568,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_ipi_ipi_raise",
+      "importance": 0.021860814279433823,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_dp_spec",
+      "importance": 0.02265405574359345,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_syscalls_sys_enter_rt_sigprocmask",
+      "importance": 0.023071321186208138,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_bus_access_not_shared",
+      "importance": 0.024511938556548967,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_l2d_cache_refill",
+      "importance": 0.026834206946041682,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_ipi_ipi_exit",
+      "importance": 0.027391754461116587,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_l1d_cache_refill",
+      "importance": 0.027890761744513656,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_sched_sched_stat_runtime",
+      "importance": 0.028450035386294033,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_l1d_cache_refill_wr",
+      "importance": 0.03117591458354715,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_l2d_cache_wr",
+      "importance": 0.03144129340859249,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_node-loads",
+      "importance": 0.0324401987126137,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_irq_softirq_entry",
+      "importance": 0.03382925855043819,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_bus_access_periph",
+      "importance": 0.036866864548941884,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_irq_softirq_raise",
+      "importance": 0.03707282116600592,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_irq_softirq_exit",
+      "importance": 0.03815530810655209,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_l2d_cache_refill_wr",
+      "importance": 0.040677488699212255,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_qdisc_qdisc_enqueue",
+      "importance": 0.04203208877817259,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_irq_irq_handler_entry",
+      "importance": 0.046482809103173164,
+      "layer": "Host"
+    },
+    {
+      "feature": "host_irq_irq_handler_exit",
+      "importance": 0.047414104482562405,
+      "layer": "Host"
+    }
+  ]
+}

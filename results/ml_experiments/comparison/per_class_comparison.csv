@@ -1,0 +1,5 @@
+Class,2Layer,Host-Only
+Benign,1.0,1.0
+Cryptojacking,1.0,1.0
+DoS,1.0,1.0
+Recon,1.0,1.0

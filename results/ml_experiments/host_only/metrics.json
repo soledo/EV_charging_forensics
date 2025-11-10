@@ -1,0 +1,133 @@
+{
+  "model": "Host-Only Random Forest",
+  "n_features": 50,
+  "n_features_original": 887,
+  "n_train_samples": 195,
+  "n_test_samples": 49,
+  "hyperparameters": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "feature_selection_k": 50
+  },
+  "performance": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision_macro": 1.0,
+    "test_recall_macro": 1.0,
+    "test_f1_macro": 1.0
+  },
+  "per_class_f1": {
+    "Benign": 1.0,
+    "DoS": 1.0,
+    "Recon": 1.0,
+    "Cryptojacking": 1.0
+  },
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      13,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      12
+    ]
+  ],
+  "top_20_features": [
+    {
+      "feature": "host_l2d_cache",
+      "importance": 0.02021605269862807
+    },
+    {
+      "feature": "host_sched_sched_wakeup_new",
+      "importance": 0.020666089362480992
+    },
+    {
+      "feature": "host_l1d_cache_refill_wr",
+      "importance": 0.02228484470079814
+    },
+    {
+      "feature": "host_l1d_cache_refill",
+      "importance": 0.022901672264539638
+    },
+    {
+      "feature": "host_exc_irq",
+      "importance": 0.02438749179924438
+    },
+    {
+      "feature": "host_bus_access_normal",
+      "importance": 0.024440339444953673
+    },
+    {
+      "feature": "host_irq_softirq_raise",
+      "importance": 0.024959973371788437
+    },
+    {
+      "feature": "host_bus_access_not_shared",
+      "importance": 0.02527410419417061
+    },
+    {
+      "feature": "host_bus_access_rd",
+      "importance": 0.026149140432308596
+    },
+    {
+      "feature": "host_dTLB-store-misses",
+      "importance": 0.029925041237239366
+    },
+    {
+      "feature": "host_bus_access_periph",
+      "importance": 0.03399060227673321
+    },
+    {
+      "feature": "host_l2d_cache_refill",
+      "importance": 0.03770816739410964
+    },
+    {
+      "feature": "host_l2d_cache_refill_wr",
+      "importance": 0.0398429755082434
+    },
+    {
+      "feature": "host_irq_softirq_entry",
+      "importance": 0.04113330167658865
+    },
+    {
+      "feature": "host_ipi_ipi_raise",
+      "importance": 0.042966369364804545
+    },
+    {
+      "feature": "host_qdisc_qdisc_enqueue",
+      "importance": 0.04553764212530944
+    },
+    {
+      "feature": "host_irq_irq_handler_entry",
+      "importance": 0.045617683654376136
+    },
+    {
+      "feature": "host_node-loads",
+      "importance": 0.04719144687188618
+    },
+    {
+      "feature": "host_irq_irq_handler_exit",
+      "importance": 0.05402769615946419
+    },
+    {
+      "feature": "host_ipi_ipi_exit",
+      "importance": 0.062281988663169016
+    }
+  ]
+}

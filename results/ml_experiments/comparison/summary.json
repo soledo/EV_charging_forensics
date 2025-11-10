@@ -1,0 +1,29 @@
+{
+  "experiment_date": "2025-11-10",
+  "dataset": "CICEVSE2024",
+  "total_samples": 244,
+  "test_samples": 49,
+  "n_classes": 4,
+  "models": {
+    "host_only": {
+      "n_features": 50,
+      "test_accuracy": 1.0,
+      "test_f1": 1.0
+    },
+    "2layer": {
+      "n_features": 55,
+      "n_host_features": 50,
+      "n_network_features": 5,
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "host_importance_pct": 94.41122668621425,
+      "network_importance_pct": 5.588773313785747
+    }
+  },
+  "conclusion": {
+    "rq1_result": "Performance parity (both 100%)",
+    "best_model": "Both models achieve perfect classification",
+    "host_dominance": true,
+    "network_contribution_pct": 5.588773313785747
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "creation_date": "2025-11-10",
+  "random_state": 42,
+  "test_size": 0.2,
+  "total_samples": 244,
+  "train_samples": 195,
+  "test_samples": 49,
+  "scenarios": {
+    "benign": 0,
+    "dos": 1,
+    "recon": 2,
+    "cryptojacking": 3
+  },
+  "class_distribution": {
+    "train": {
+      "0": 49,
+      "1": 49,
+      "2": 48,
+      "3": 49
+    },
+    "test": {
+      "0": 12,
+      "1": 12,
+      "2": 13,
+      "3": 12
+    }
+  },
+  "feature_counts": {
+    "host": 892,
+    "network": 0,
+    "power": 3,
+    "2layer": 892,
+    "3layer": 895
+  },
+  "missing_rates": {
+    "host": 0.002802690582959641,
+    "network": null,
+    "power": 0.6147540983606558,
+    "3layer": 0.004853924352046891
+  },
+  "files_created": [
+    "processed/ml_datasets/X_train_host.csv",
+    "processed/ml_datasets/X_test_host.csv",
+    "processed/ml_datasets/X_train_2layer.csv",
+    "processed/ml_datasets/X_test_2layer.csv",
+    "processed/ml_datasets/X_train_3layer.csv",
+    "processed/ml_datasets/X_test_3layer.csv",
+    "processed/ml_datasets/y_train.csv",
+    "processed/ml_datasets/y_test.csv"
+  ]
+}
